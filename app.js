@@ -105,7 +105,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiplyArray(testArray){ //eslint-disable-line
   var firstProduct = multiply(testArray[0],testArray[1])[0];
   var secondProduct = multiply(firstProduct, testArray[2])[0];
-  var message = 'The numbers ' + testArray + ' have a product of 24.';
+  var message = 'The numbers ' + testArray + ' have a product of ' + secondProduct + '.';
   return [secondProduct, message];
 }
 
